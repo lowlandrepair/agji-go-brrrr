@@ -1,0 +1,40 @@
+/* Gallery page specific styles */
+
+.gallery {
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 2rem;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin-bottom: 40px;
+}
+
+.photos img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.photos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    border: 4px solid #007bff;
+}
+
+video#video {
+    display: block;
+    margin: 0 auto 40px auto;
+    max-width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,83 @@
+/* Services page specific styles */
+
+.services {
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0 auto;
+    font-family: "Exo", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.services p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #6c757d;
+}
+
+.service-card {
+    border: none;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-title i {
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #495057;
+}
+
+.btn-outline-primary {
+    border-width: 2px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin: 0.5rem 0 1rem 0;
+}
+
+ul.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    color: #495057;
+}
+
+ul.list-unstyled li {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+ul.list-unstyled li:last-child {
+    border-bottom: none;
+}
