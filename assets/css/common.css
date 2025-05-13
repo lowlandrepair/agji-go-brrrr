@@ -46,8 +46,15 @@ p {
 /*-----------------------------------------------------------------Logo*/
 
 .logo {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%; /* Optional: Makes the logo circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: transform 0.3s ease; /* Adds a hover effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slightly enlarges the logo on hover */
 }
 
 /*---------------------------------------------------------------Button*/
@@ -192,6 +199,25 @@ h4 {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+
+
+/* Services Section */
+.services {
+    color: black; /* Make text black */
+}
+
+/* Contact Section */
+.contact-details,
+.contact-info-list p {
+    color: black; /* Make text black */
+}
+
+/* Gallery Section */
+.gallery,
+.photos img {
+    color: black; /* Ensure text is black */
 }
 
 /* Media Queries */

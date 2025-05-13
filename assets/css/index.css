@@ -228,3 +228,16 @@ footer .social-links a:hover {
 .modal-footer {
     /* Bootstrap default styles, no overrides */
 }
+
+/* Update the logo styles to match the common.css */
+.logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%; /* Makes the logo circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: transform 0.3s ease; /* Adds a hover effect */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Slightly enlarges the logo on hover */
+}
